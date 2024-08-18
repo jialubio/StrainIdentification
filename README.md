@@ -1,6 +1,6 @@
 # Strain Identification via Colony Morphology Using Machine Learning
 
-Plating is a common biology experiment where cells are streaked onto an agar plate and incubated. Researchers then either examine the colony morphology to identify the bacterial species or count the composition of a microbial community based on morphology. These experiments are often time-consuming and laborious.
+Plating is a common biology experiment where cells are streaked onto an agar plate and incubated. Researchers then either examine the [colony morphology](https://www.cdc.gov/labtraining/docs/job_aids/biochemicals_gram_positive_organism_id/Colonial_Characteristics_Branded_508.pdf) to identify the bacterial species or count the composition of a microbial community based on morphology. These experiments are often time-consuming and laborious.
 
 To automate this process, a machine learning algorithm was developed. Images of entire agar plates with multiple single colonies are used as input. The images are segmented to isolate individual colonies, which are then analyzed by a trained CNN that classifies the strain based on colony morphology. Finally, the colony counts are aggregated to compute the overall composition of the microbial community.
 
